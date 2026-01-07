@@ -79,8 +79,9 @@ const data = await getJson('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X
 🔸 *Name:* ${data.name}
 🔸 *Stars:* ${data.stargazers_count}
 🔸 *Forks:* ${data.forks_count}
+🔸 *Instragram Link:* https://www.instagram.com/riju_editx
 🔸 *GitHub Link:* 
-https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X--BOT--MD
+https://github.com/hhhhhxx1/X--BOT--MD
 
 Hey ${m.pushName}!, Don't forget to star and fork my repository!`;
 
@@ -104,10 +105,10 @@ const data = await getJson('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X
 🔸 *Name:* ${data.name}
 🔸 *Stars:* ${data.stargazers_count}
 🔸 *Forks:* ${data.forks_count}
-🔸 *GitHub Link:* 
+🔸 *GitHub Link:* https://www.instagram.com/riju_editx/
 https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X--BOT--MD
 
-Hey ${m.pushName}!, Don't forget to star and fork my repository!`;
+Hey ${m.pushName}!, Don't forget to follow me in instagram`;
 
 return m.reply(repoInfo)
 
