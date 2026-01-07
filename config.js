@@ -41,13 +41,13 @@ DATABASE.authenticate().then(() => console.log("Database connection established 
 
 module.exports = {
 	VERSION: require("./package.json").version,
-	ALIVE: process.env.ALIVE || "Hello i'm रिजु<🕊️ i'm alive",
+	ALIVE: process.env.ALIVE || "Hello i'm रिजु<🕊️, i'm alive",
 	ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE || "false"),
 	BGMBOT : toBool(process.env.BGMBOT || "false"),
 	API: "https://api-aswin-sparky.koyeb.app",
-	AUDIO_DATA: process.env.AUDIO_DATA || "RIJU_EDITX;NVM_.RIJU;",
+	AUDIO_DATA: process.env.AUDIO_DATA || "RIJU_EDITX;NVM_.RIJU;https://i.postimg.cc/RhGnV7w1/Whats-App-Image-2025-08-14-at-22-32-12-2e505b3e.jpg",
 	AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || "true"),
-	BOT_INFO: process.env.BOT_INFO || "RIJU_EDITX;रिजु<🕊️;https://url.sparky.biz.id/5ftLiA.jpg",
+	BOT_INFO: process.env.BOT_INFO || "RIJU_EDITX;रिजु<🕊️;https://i.postimg.cc/RhGnV7w1/Whats-App-Image-2025-08-14-at-22-32-12-2e505b3e.jpg",
 	CALL_BLOCK: toBool(process.env.CALL_BLOCK || "false"),
 	CALL_BLOCK_MSG: process.env.CALL_BLOCK_MSG || "_Calls are not allowed. Please don’t call again!._",
 	DATABASE_URL,
